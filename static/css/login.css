@@ -1,0 +1,108 @@
+.top-nav{
+    background-color: #FED7D7;
+}
+
+.container{
+    height: 93vh;
+    background: url(../imgs/africa.png);
+}
+
+.hide-on-mobile{
+    display: none;
+}
+
+form{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(90%);
+}
+
+input[type=email], input[type=password]{
+    width: 85%;
+    padding: 12px;
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+    resize: vertical;
+    /* line-height: 2em; */
+    font-size: 1rem;
+    margin-top: .8em;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    background-color: #FFF;
+    color: #8A4646;
+    margin-top: 2.5rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50%;
+    font-size: 1rem;
+}
+  
+input[type=submit]:hover {
+    background-color: #e772a1;
+    color: #fff;
+}
+
+@media screen and (min-width: 1000px) {
+    .hide-on-mobile{
+        display: initial;
+    }
+    
+    .top-nav{
+        background-color: #EEE6E6;
+    }
+    .container{
+        background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgb(255, 204, 204) 100%);
+
+    }
+
+    form{
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        transform: translateY(40%);
+        border: 2px solid #6E2E2E;
+        background:#6E2E2E;
+        border-radius: 40px;
+        /* height: 60vh; */
+    }
+
+    .form{
+        transform: translateY(20%);
+    }
+
+    form img{
+        width: 70%;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+
+    .img-form{
+        text-align: left;
+        /* border: 2px solid red; */
+        width: 40%;
+        /* height: 60vh; */
+    }
+
+    input[type=email], input[type=password]{
+        width: 180%;
+    }
+    input[type=submit]{
+        transform: translateX(100%);
+    }
+
+}

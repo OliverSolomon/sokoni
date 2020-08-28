@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styleM.css">
+    <link rel="stylesheet" href="static/css/login.css">
+
+    <style>
+        .main-container{
+    background: #F9F9DD;
+}
+    </style>
+
+    <title>The Market - {{login}}</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="top-nav" id="top">
+            <div class="logo">
+                <a href="index.html"><img src="static/imgs/logo.png" alt="logo"></a>
+                <!-- <h3> THE MARKET</h3> -->
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#filter"><img src="static/imgs/filter.png" alt="Filter"></a></li>
+                    <li><a href="cart.html"><img src="static/imgs/cart.png" alt="cart"></a></li>
+                    <li><a href="#track"><img src="static/imgs/track.png" alt="Track"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="main-container" id="main-container"> -->
+    <div class="container">
+
+        <form  action="index.html" method="GET">
+            <div class="img-form hide-on-mobile">
+                <img src="static/imgs/backg.jpg" alt="african woman">
+            </div>
+            <div class="form">
+                <div>
+                    <input type="email" id="emailId" placeholder="Email Address">
+                </div>
+                <div>
+                    <input type="password" id="passwdId" placeholder="Password">
+                </div>
+                <div>
+                    <input type="password" id="passwd-confirm" placeholder="Confirm Password">
+                </div>
+                <div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
