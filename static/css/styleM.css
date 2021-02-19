@@ -324,8 +324,8 @@ img{
     width:45%;
     border-radius: 20px ;
     line-height: 1.9em;
-
     margin-bottom: 5em;
+    transition: all .3s ease-in;
 }
 
 .product-card:hover, .product-card:active{
