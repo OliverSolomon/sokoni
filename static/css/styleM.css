@@ -329,9 +329,9 @@ img{
 }
 
 .product-card:hover, .product-card:active{
-/*     transform:translateY(-3px);
-    transform: rotateZ(3deg); */
-    width: 45.5%;
+    transform:translateY(-3px);
+    transform: rotateZ(3deg);
+/*     width: 45.5%; */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
 }
 
